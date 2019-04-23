@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>文艺 | 啊哩药丸--科技、文艺我们都要！</title>
+<title>B站网站后台工程源码疑似泄露 内含部分用户名密码 | 啊哩药丸--科技、文艺我们都要！</title>
 <meta name="description" content="啊哩药丸，大家的药丸，一起吃药丸吧！">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -12,6 +12,12 @@
 <link rel="shortcut icon" href="https://www.aliyaowan.com/favicon.ico?v=1555981050414">
 <link rel="stylesheet" href="https://www.aliyaowan.com/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -99,34 +105,46 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <h2 class="current-tag">标签: 文艺</h2>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://www.aliyaowan.com/post/2">
-                  <h2 class="post-title">真是药丸</h2>
-                </a>
-                <div class="post-date">
-                  2019-04-15
-                </div>
-                <div class="post-abstract">
-                  <p>👏  欢迎使用 啊哩药丸，让大家<a href="https://t.me/Allshadiao">真是药丸</a></p>
-
-                </div>
+          <div class="post-detail">
+            <h2 class="post-title">B站网站后台工程源码疑似泄露 内含部分用户名密码</h2>
+            <div class="post-date">2019-04-23</div>
+            
+              <div class="feature-container" style="background-image: url('https://www.aliyaowan.com/post-images/oyVQV0pn3.png')">
               </div>
-              
-                <a class="right" href="https://www.aliyaowan.com/post/2">
-                  <div class="feature-container" style="background-image: url('https://www.aliyaowan.com/post-images/2.png')">
-                  </div>
-                </a>
-              
-            </article>
-          
+            
+            <div class="post-content">
+              <p>4月22日消息，据微博@互联网的那点事 爆料称，哔哩哔哩（B站）整个网站后台工程源码泄露，并且“不少用户名密码被硬编码在代码里面，谁都可以用。”</p>
+ <!-- more --> 
+<p><img src="https://www.aliyaowan.com/post-images/1555981032076.png" alt="">
+<img src="https://www.aliyaowan.com/post-images/1555981036127.jpeg" alt="">
+新浪科技在GitHub上查询后发现，平台上确实存在由一个名叫“openbilibili”的用户创建的“go-common”代码库，项目描述为“哔哩哔哩 bilibili 网站后台工程 源码”。截至北京时间17:04，该项目已获得6597个标星和6050个代码库分支（fork）。
+<img src="https://www.aliyaowan.com/post-images/1555981040874.jpeg" alt="">
+<img src="https://www.aliyaowan.com/post-images/1555981043544.png" alt=""></p>
+<p>GitHub“封杀”B站源码代码库</p>
+<p>来源：新浪科技</p>
 
-          <div class="pagination-container">
-  
-  
-</div>
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://www.aliyaowan.com/post/6">
+                  <h3 class="post-title">
+                    严正声明：本站跟阿里巴巴集团没有任何关系以及关联！
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
 
         </div>
       </div>
@@ -148,6 +166,29 @@ var app = new Vue({
 })
 
 </script>
+
+
+  
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '9bd181b4c86fd92ca037',
+        clientSecret: 'e228ad6623f10c01f7e59ff4ae1896c94673e96a',
+        repo: 'aliyaowan.github.io',
+        owner: 'myvodo',
+        admin: ['myvodo'],
+        id: location.pathname,      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
